@@ -22,7 +22,6 @@ while True:
         with open("biudzetas.pkl", "wb") as failas:
             pickle.dump(biudzetas, failas)
 
-
     if veiksmas == 2:
         with open("biudzetas.pkl", "rb") as failas:
             biudzetas = pickle.load(failas)
